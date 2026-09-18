@@ -1,0 +1,674 @@
+/* =========================================
+   ESTILOS GENERALES
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff7f1;
+    color: #601D49;
+    font-family: "Poppins", Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* =========================================
+   CORAZONES DECORATIVOS
+========================================= */
+
+.corazon {
+    position: fixed;
+    color: #BD5579;
+    opacity: 0.12;
+    font-size: 70px;
+    z-index: -1;
+    animation: flotar 5s ease-in-out infinite;
+}
+
+.c1 {
+    top: 15%;
+    left: 3%;
+}
+
+.c2 {
+    top: 50%;
+    right: 4%;
+    font-size: 90px;
+    animation-delay: 1s;
+}
+
+.c3 {
+    top: 80%;
+    left: 6%;
+    font-size: 50px;
+    animation-delay: 2s;
+}
+
+.c4 {
+    top: 35%;
+    right: 10%;
+    font-size: 45px;
+    animation-delay: 3s;
+}
+
+@keyframes flotar {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(-5deg);
+    }
+
+    50% {
+        transform: translateY(-20px) rotate(5deg);
+    }
+}
+
+
+/* =========================================
+   PORTADA
+========================================= */
+
+.portada {
+    min-height: 100vh;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(circle at 20% 20%, #bd557955, transparent 30%),
+        radial-gradient(circle at 80% 80%, #ea9d9d66, transparent 30%),
+        linear-gradient(135deg, #601D49, #35122d 60%, #601D49);
+}
+
+.brillo {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+
+    border-radius: 50%;
+
+    background: #EA9D9D;
+    filter: blur(130px);
+
+    opacity: 0.18;
+}
+
+.contenido-portada {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    padding: 40px;
+}
+
+.pequeno {
+    color: #FFEBB8;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contenido-portada h1 {
+    color: #FFEBB8;
+    font-family: "DM Serif Display", serif;
+    font-size: clamp(80px, 15vw, 180px);
+    line-height: 0.9;
+    font-weight: 400;
+}
+
+.contenido-portada h1 span {
+    color: #EA9D9D;
+    font-size: 0.5em;
+}
+
+.subtitulo {
+    max-width: 600px;
+    margin: 35px auto;
+    color: #fbe5dc;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.fecha {
+    color: #EA9D9D;
+    font-weight: 600;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 15px 30px;
+
+    color: #601D49;
+    background: #FFEBB8;
+
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.boton:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px #00000055;
+}
+
+
+/* =========================================
+   CONTADOR
+========================================= */
+
+.contador-seccion {
+    padding: 120px 8%;
+    text-align: center;
+
+    background:
+        radial-gradient(circle at center, #EA9D9D22, transparent 50%),
+        #fff7f1;
+}
+
+.etiqueta {
+    color: #BD5579;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.contador-seccion h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: clamp(40px, 6vw, 70px);
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.contador-seccion h2 span {
+    color: #BD5579;
+}
+
+.contador-intro {
+    color: #795b6d;
+    margin-bottom: 50px;
+}
+
+.contador {
+    max-width: 1100px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    padding: 40px;
+
+    border-radius: 30px;
+
+    background: #ffffffaa;
+    backdrop-filter: blur(15px);
+
+    box-shadow: 0 25px 70px #601D4915;
+}
+
+.tiempo {
+    min-width: 100px;
+}
+
+.tiempo strong {
+    display: block;
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: 48px;
+    color: #601D49;
+}
+
+.tiempo span {
+    color: #BD5579;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.separador {
+    font-size: 30px;
+    color: #EA9D9D;
+}
+
+.frase-contador {
+    margin-top: 45px;
+
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+    font-size: 24px;
+
+    color: #601D49;
+}
+
+
+/* =========================================
+   CARTAS
+========================================= */
+
+.carta {
+    max-width: 1100px;
+    margin: 100px auto;
+    padding: 70px;
+
+    border-radius: 35px;
+
+    background: #ffffff;
+
+    box-shadow: 0 30px 80px #601D4912;
+}
+
+.carta-rosa {
+    background:
+        linear-gradient(135deg, #fff, #fff1f1);
+}
+
+.titulo-seccion {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    margin-bottom: 45px;
+}
+
+.titulo-seccion span {
+    font-size: 13px;
+    font-weight: 700;
+    color: #BD5579;
+
+    border: 1px solid #EA9D9D;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+.titulo-seccion h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.texto {
+    color: #604a58;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.texto p {
+    margin-bottom: 25px;
+}
+
+.texto strong {
+    color: #601D49;
+}
+
+.texto em {
+    color: #BD5579;
+}
+
+
+/* =========================================
+   FOTO GRANDE
+========================================= */
+
+.foto-grande {
+    width: 90%;
+    max-width: 1200px;
+
+    height: 600px;
+
+    margin: 100px auto;
+
+    position: relative;
+    overflow: hidden;
+
+    border-radius: 35px;
+
+    box-shadow: 0 30px 80px #601D4930;
+}
+
+.foto-grande img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: 0.8s;
+}
+
+.foto-grande:hover img {
+    transform: scale(1.04);
+}
+
+.texto-foto {
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 70px 50px 45px;
+
+    color: white;
+
+    background: linear-gradient(transparent, #601D49e8);
+}
+
+.texto-foto span {
+    color: #FFEBB8;
+    font-size: 11px;
+    letter-spacing: 4px;
+}
+
+.texto-foto h3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+
+/* =========================================
+   GALERÍA DE DOS FOTOS
+========================================= */
+
+.galeria-dos {
+    max-width: 1100px;
+    margin: 100px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 30px;
+}
+
+.foto-card {
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+
+    box-shadow: 0 25px 60px #601D4915;
+
+    transition: 0.4s;
+}
+
+.foto-card:hover {
+    transform: translateY(-8px);
+}
+
+.foto-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.foto-card div {
+    padding: 25px;
+}
+
+.foto-card span {
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #BD5579;
+}
+
+.foto-card p {
+    margin-top: 8px;
+    color: #604a58;
+}
+
+
+/* =========================================
+   DECLARACIÓN FINAL
+========================================= */
+
+.declaracion {
+    position: relative;
+
+    max-width: 1100px;
+
+    margin: 150px auto;
+
+    padding: 100px 12%;
+
+    text-align: center;
+
+    border-radius: 45px;
+
+    background:
+        radial-gradient(circle at 50% 30%, #EA9D9D55, transparent 40%),
+        linear-gradient(135deg, #601D49, #421333);
+
+    color: white;
+
+    overflow: hidden;
+
+    box-shadow: 0 35px 100px #601D4930;
+}
+
+.corazon-grande {
+    font-size: 80px;
+    color: #EA9D9D;
+
+    margin-bottom: 20px;
+
+    animation: latido 1.5s infinite;
+}
+
+@keyframes latido {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.12);
+    }
+}
+
+.declaracion .etiqueta {
+    color: #FFEBB8;
+}
+
+.declaracion h2 {
+    font-family: "DM Serif Display", serif;
+
+    font-size: clamp(45px, 6vw, 75px);
+
+    font-weight: 400;
+
+    margin: 25px 0 50px;
+
+    color: #FFEBB8;
+}
+
+.texto-final {
+    max-width: 700px;
+    margin: auto;
+
+    font-size: 17px;
+    line-height: 2;
+    color: #f7dfe4;
+}
+
+.texto-final p {
+    margin-bottom: 25px;
+}
+
+.texto-final h3 {
+    margin-top: 45px;
+
+    font-family: "DM Serif Display", serif;
+
+    font-size: 32px;
+    font-weight: 400;
+
+    color: #EA9D9D;
+}
+
+
+/* =========================================
+   FINAL
+========================================= */
+
+.final {
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background:
+        radial-gradient(circle at 50% 40%, #EA9D9D44, transparent 40%),
+        #601D49;
+
+    color: white;
+}
+
+.final > p:first-child {
+    color: #EA9D9D;
+    letter-spacing: 6px;
+    font-size: 12px;
+}
+
+.final h2 {
+    font-family: "DM Serif Display", serif;
+
+    font-size: clamp(70px, 12vw, 150px);
+
+    font-weight: 400;
+
+    color: #FFEBB8;
+
+    margin: 20px 0;
+}
+
+.final h2 span {
+    color: #EA9D9D;
+}
+
+.final h3 {
+    font-family: "DM Serif Display", serif;
+    font-size: 30px;
+    font-weight: 400;
+
+    color: #EA9D9D;
+}
+
+.ultima-frase {
+    margin-top: 35px;
+
+    line-height: 2;
+
+    color: #f5dfe4;
+}
+
+.firma {
+    margin-top: 60px;
+
+    color: #f5dfe4;
+    line-height: 2;
+}
+
+.firma strong {
+    color: #FFEBB8;
+    font-size: 20px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 800px) {
+
+    .contenido-portada {
+        padding: 25px;
+    }
+
+    .contenido-portada h1 {
+        font-size: 85px;
+    }
+
+    .subtitulo {
+        font-size: 15px;
+    }
+
+    .contador {
+        padding: 25px 10px;
+        gap: 10px;
+    }
+
+    .tiempo {
+        min-width: 80px;
+    }
+
+    .tiempo strong {
+        font-size: 35px;
+    }
+
+    .separador {
+        display: none;
+    }
+
+    .carta {
+        width: 90%;
+        padding: 40px 25px;
+    }
+
+    .titulo-seccion h2 {
+        font-size: 38px;
+    }
+
+    .foto-grande {
+        width: 90%;
+        height: 450px;
+    }
+
+    .galeria-dos {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+    .declaracion {
+        width: 90%;
+        padding: 70px 25px;
+    }
+
+    .texto-final {
+        font-size: 15px;
+    }
+
+    .foto-card img {
+        height: 350px;
+    }
+}
