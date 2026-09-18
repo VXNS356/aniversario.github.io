@@ -1,1 +1,459 @@
-# aniversario.github.io
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para Tiffany ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- CORAZONES DECORATIVOS -->
+    <div class="corazon c1">♥</div>
+    <div class="corazon c2">♥</div>
+    <div class="corazon c3">♥</div>
+    <div class="corazon c4">♥</div>
+
+    <!-- PORTADA -->
+    <header class="portada">
+
+        <div class="brillo"></div>
+
+        <div class="contenido-portada">
+
+            <p class="pequeno">PARA LA PERSONA QUE CAMBIÓ MI VIDA</p>
+
+            <h1>
+                Tiffany
+                <span>♥</span>
+            </h1>
+
+            <p class="subtitulo">
+                Una historia que comenzó con un encuentro...
+                y que espero que nunca termine.
+            </p>
+
+            <div class="fecha">
+                17 · 08 · 2025
+            </div>
+
+            <a href="#nuestra-historia" class="boton">
+                Ver nuestra historia ↓
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTADOR -->
+    <section class="contador-seccion">
+
+        <p class="etiqueta">NUESTRO TIEMPO JUNTOS</p>
+
+        <h2>Desde aquel <span>17 de Agosto</span> ❤️</h2>
+
+        <p class="contador-intro">
+            Cada segundo contigo se convirtió en un recuerdo que quiero guardar para siempre.
+        </p>
+
+        <div class="contador">
+
+            <div class="tiempo">
+                <strong id="anos">0</strong>
+                <span>Años</span>
+            </div>
+
+            <div class="separador">:</div>
+
+            <div class="tiempo">
+                <strong id="meses">0</strong>
+                <span>Meses</span>
+            </div>
+
+            <div class="separador">:</div>
+
+            <div class="tiempo">
+                <strong id="dias">0</strong>
+                <span>Días</span>
+            </div>
+
+            <div class="separador">:</div>
+
+            <div class="tiempo">
+                <strong id="horas">0</strong>
+                <span>Horas</span>
+            </div>
+
+            <div class="separador">:</div>
+
+            <div class="tiempo">
+                <strong id="minutos">0</strong>
+                <span>Minutos</span>
+            </div>
+
+            <div class="separador">:</div>
+
+            <div class="tiempo">
+                <strong id="segundos">0</strong>
+                <span>Segundos</span>
+            </div>
+
+        </div>
+
+        <p class="frase-contador">
+            "Y si pudiera volver al primer día, volvería a escogerte."
+        </p>
+
+    </section>
+
+
+    <!-- HISTORIA -->
+    <main id="nuestra-historia">
+
+        <section class="carta">
+
+            <div class="titulo-seccion">
+                <span>01</span>
+                <h2>Para ti, mi amor</h2>
+            </div>
+
+            <div class="texto">
+
+                <p>
+                    Hoy cumplimos un mes más, un logro más para nosotros, y quiero
+                    que sepas lo mucho que te amo y aprecio en mi vida. Eres muy
+                    importante para mí.
+                </p>
+
+                <p>
+                    Desde que nos conocimos te has robado mi atención y mi amor.
+                    Sabes que estoy enamorado profundamente de ti, que eres la mejor
+                    del mundo y yo te pienso en cada momento.
+                </p>
+
+                <p>
+                    Aprecio todos los momentos que compartimos. Ambos recordamos
+                    el primer día que nos conocimos, cuando nos volvimos a hablar,
+                    cuando me declaré a ti y cuando fue nuestro primer beso.
+                    Ese día es inolvidable para mí.
+                </p>
+
+                <p>
+                    Cada vez que pienso en ti mi corazón late de amor por ti y
+                    me enamoro más. O cuando te veo digo:
+                    <em>"buaaaaa, qué hermosa"</em>.
+                    Ojalá estar a solas... jajaja, perdón, me desvío. ❤️
+                </p>
+
+                <p>
+                    Mi vida, es un gran honor ser tu pareja. Yo en serio espero
+                    poder armar un futuro contigo y tener una hermosa familia,
+                    una hija que se parezca a ti y poder decir algún día:
+                    <strong>"ella es mi novia"</strong>, para que todo el mundo
+                    sepa lo mucho que te amo.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOTO 1 -->
+        <section class="foto-grande">
+            <img src="recuerdos/aniversario.jpeg" alt="Uno de nuestros recuerdos">
+            <div class="texto-foto">
+                <span>UN RECUERDO</span>
+                <h3>Y apenas estamos comenzando...</h3>
+            </div>
+        </section>
+
+
+        <!-- DOS FOTOS -->
+        <section class="galeria-dos">
+
+            <div class="foto-card">
+                <img src="recuerdos/aniversario2.jpeg" alt="Nuestro recuerdo">
+                <div>
+                    <span>RECUERDO #01</span>
+                    <p>Un momento que siempre voy a guardar.</p>
+                </div>
+            </div>
+
+            <div class="foto-card">
+                <img src="recuerdos/aniversario3.jpeg" alt="Nuestro recuerdo">
+                <div>
+                    <span>RECUERDO #02</span>
+                    <p>Porque contigo hasta lo sencillo se vuelve especial.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- SEGUNDA CARTA -->
+        <section class="carta carta-rosa">
+
+            <div class="titulo-seccion">
+                <span>02</span>
+                <h2>Cada recuerdo contigo</h2>
+            </div>
+
+            <div class="texto">
+
+                <p>
+                    Cada recuerdo contigo me hace feliz. Vienen más en el futuro
+                    y amaré poder compartirlos contigo.
+                </p>
+
+                <p>
+                    Día con día me esfuerzo por mejorar y poder darte una mejor
+                    vida cuando estemos juntos, porque quiero que tengas todo
+                    cuando nos casemos.
+                </p>
+
+                <p>
+                    Eres tan hermosa que a mis ojos tú opacas a todas.
+                    Eres tan especial para mí que tú eres perfecta en mis ojos.
+                    Te veo tan bella, linda, hermosa, guapa...
+                    <strong>sabrosa, deliciosa, ricota...</strong>
+                </p>
+
+                <p>
+                    Ay ay, me desvío de nuevo JAJAJS. Es que contigo pierdo el
+                    control, no puedo pensar bien con tanta belleza que tienes.
+                </p>
+
+                <p>
+                    Mi vida, te amo en serio tanto como no tienes idea.
+                    Si pudiera bajarte las estrellas te las bajaría,
+                    pero como es imposible, mejor te hago verlas en privado.
+                    JASJSJ. Ya, ya me controlo. ❤️
+                </p>
+
+                <p>
+                    Eres la mujer de mis sueños, la que siempre quise.
+                    Logré que Dios me diera a su princesa, que me diera el honor
+                    de amarte y protegerte y que seas mi prioridad número uno.
+                </p>
+
+                <p>
+                    Le prometo a Dios cuidar bien de ti en todo momento y pido
+                    perdón si en algún momento te hice sentir mal o no te he
+                    sabido comprender como tú quisieras.
+                </p>
+
+                <p>
+                    No pongo como excusa nada, porque los errores que cometo
+                    me lamento hacerlos hacia ti.
+                </p>
+
+                <p>
+                    Mi amor, deseo lo mejor para ti día con día.
+                    Que seas feliz conmigo.
+                    Gracias por fijarte en mí, por ver a este hombre que está
+                    lleno de errores y que, aun así, siempre te amará.
+                </p>
+
+                <p>
+                    Como dije, encontré a mi mujer.
+                    Logré encontrar un tesoro más grande que el que haya existido.
+                    Te cuidaré todo el tiempo, hasta cuando no me soportes.
+                    Te amaré y cuidaré, jeje.
+                </p>
+
+                <p>
+                    Cuando estés enojada buscaré la forma de sacarte una sonrisa
+                    y bajarte tu enojo.
+                    <strong>Promesa. ❤️</strong>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- DOS FOTOS FINALES -->
+        <section class="galeria-dos galeria-final">
+
+            <div class="foto-card">
+                <img src="recuerdos/aniversario4.jpeg" alt="Otro recuerdo">
+                <div>
+                    <span>JUNTOS</span>
+                    <p>Donde sea, pero contigo.</p>
+                </div>
+            </div>
+
+            <div class="foto-card">
+                <img src="recuerdos/aniversario5.jpeg" alt="Otro recuerdo">
+                <div>
+                    <span>NOSOTROS</span>
+                    <p>Un recuerdo más de nuestra historia.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- DECLARACIÓN FINAL -->
+        <section class="declaracion">
+
+            <div class="corazon-grande">♥</div>
+
+            <p class="etiqueta">03 · PARA SIEMPRE</p>
+
+            <h2>
+                Aquí te quiero declarar
+                <br>
+                algo...
+            </h2>
+
+            <div class="texto-final">
+
+                <p>
+                    Que jamás me rendiré por estar contigo.
+                    Buscaré la forma día con día de poder avanzar para que
+                    estemos juntos siempre.
+                </p>
+
+                <p>
+                    Amor, eres mi noviecitaaa linda linda jeje.
+                    Te adoro bastante, chiquita linda, mi chaparrita bellaaaaa.
+                </p>
+
+                <p>
+                    Te amo bastante.
+                </p>
+
+                <h3>
+                    Ojalá cumplamos muchos años massss. ❤️
+                </h3>
+
+            </div>
+
+        </section>
+
+
+        <!-- CIERRE -->
+        <section class="final">
+
+            <div class="final-brillo"></div>
+
+            <p>17 · 08 · 2025</p>
+
+            <h2>
+                Tiffany
+                <span>♥</span>
+            </h2>
+
+            <h3>
+                Mi persona favorita.
+            </h3>
+
+            <p class="ultima-frase">
+                Gracias por ser parte de mi historia.
+                <br>
+                Espero poder seguir escribiéndola contigo.
+            </p>
+
+            <div class="firma">
+                Con todo mi amor,<br>
+                <strong>Tu novio ❤️</strong>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- CONTADOR REAL -->
+    <script>
+
+        // FECHA DE INICIO DE LA RELACIÓN
+        const fechaInicio = new Date("2025-08-17T00:00:00-06:00");
+
+        function calcularTiempo() {
+
+            const ahora = new Date();
+
+            let anos = ahora.getFullYear() - fechaInicio.getFullYear();
+            let meses = ahora.getMonth() - fechaInicio.getMonth();
+
+            // Si todavía no hemos llegado al día 17 de este mes,
+            // todavía no se cumple el mes completo.
+            if (ahora.getDate() < fechaInicio.getDate()) {
+                meses--;
+            }
+
+            // Ajustamos los años y meses
+            if (meses < 0) {
+                anos--;
+                meses += 12;
+            }
+
+            // Creamos una fecha base con los años y meses completos
+            let fechaBase = new Date(fechaInicio);
+
+            fechaBase.setFullYear(
+                fechaInicio.getFullYear() + anos
+            );
+
+            fechaBase.setMonth(
+                fechaInicio.getMonth() + meses
+            );
+
+            // Diferencia restante después de años y meses
+            let diferencia = ahora - fechaBase;
+
+            const segundo = 1000;
+            const minuto = segundo * 60;
+            const hora = minuto * 60;
+            const dia = hora * 24;
+
+            // Días restantes
+            let dias = Math.floor(diferencia / dia);
+            diferencia %= dia;
+
+            // Horas restantes
+            let horas = Math.floor(diferencia / hora);
+            diferencia %= hora;
+
+            // Minutos restantes
+            let minutos = Math.floor(diferencia / minuto);
+            diferencia %= minuto;
+
+            // Segundos restantes
+            let segundos = Math.floor(diferencia / segundo);
+
+            // Mostrar los resultados
+            document.getElementById("anos").textContent = anos;
+            document.getElementById("meses").textContent = meses;
+            document.getElementById("dias").textContent = dias;
+            document.getElementById("horas").textContent = horas;
+            document.getElementById("minutos").textContent = minutos;
+            document.getElementById("segundos").textContent = segundos;
+        }
+
+        // Ejecutar inmediatamente
+        calcularTiempo();
+
+        // Actualizar cada segundo
+        setInterval(calcularTiempo, 1000);
+
+    </script>
+
+</body>
+
+</html>
+```# aniversario.github.io
